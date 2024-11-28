@@ -400,8 +400,7 @@ var viewer3d;
 <h1>w11_hw</h1>
 <p></p>
 <script src="/static/jsc3d.js" type="text/javascript"></script>
-<p><canvas height="600" id="cv" style="border: 1px solid;" width="800"></canvas></p>
-<div style="width: 800px; height: 70px; border: 1px solid;">Model Color:<input id="mdlClr" onchange="changeOption('ModelColor',this.value)" style="margin-right: 50px;" type="color" value="#00ff40"/> Back Color1:<input id="bckClr1" onchange="changeOption('BackgroundColor1',this.value)" style="margin-right: 50px;" type="color"/> Back Color2:<input id="bckClr2" onchange="changeOption('BackgroundColor2',this.value)" type="color"/><br/> Render Mode:<select id="render" onchange="changeOption('RenderMode',this.value)">
+<p><canvas height="300" id="cv" mdlclr="" onchange="changeOption('ModelColor',this.value)" style="margin-right: 50px;" type="color" value="#00ff40" width="400olor:&lt;input id="> Back Color1:<input id="bckClr1" onchange="changeOption('BackgroundColor1',this.value)" style="margin-right: 50px;" type="color"/> Back Color2:<input id="bckClr2" onchange="changeOption('BackgroundColor2',this.value)" type="color"/><br/> Render Mode:<select id="render" onchange="changeOption('RenderMode',this.value)">
 <option>Flat</option>
 <option>Point</option>
 <option>Wireframe</option>
@@ -410,7 +409,7 @@ var viewer3d;
 <option>Standard</option>
 <option>low</option>
 <option>high</option>
-</select></div>
+</select></canvas></p>
 <p>
 <script type="text/javascript">
 var viewer3d;
@@ -493,7 +492,8 @@ var viewer3d;
     }
     openByGet();
 </script>
-</p><h1>Final Report</h1>
+</p>
+<p></p><h1>Final Report</h1>
 <p>期末口頭與書面專題報告 (30%)</p>
 <p>期末口頭專題報告影片:</p>
 <p style="padding-left: 30px;">......</p>
